@@ -24,10 +24,12 @@ The baseline model achieved a **95.8% validation accuracy** at 20 epochs.
 While overall accuracy was exceptionally high, a rigorous class-specific error analysis revealed persistent vulnerabilities when differentiating visually similar categories (specifically `cats` vs. `dogs`). Due to shared quadrupedal features and the low 32x32 spatial resolution of the CIFAR-10 dataset, the model generalized these biological traits, leading to distinct confusion matrix clusters.
 
 ### Training & Validation Loss
-`![Training Curves](LearningCurves.png)`
+<img width="1389" height="490" alt="LearningCurves" src="https://github.com/user-attachments/assets/33764218-cd1a-4907-9351-247ffbc0f63d" />
+
 
 ### Confusion Matrix
-`![Confusion Matrix](ConfusionMatrix.png)`
+<img width="809" height="724" alt="ConfusionMatrix" src="https://github.com/user-attachments/assets/2098d037-25d1-4ec0-a9f9-9cf4a74f3c1a" />
+
 
 ## How to Run the Code
 1. Clone this repository:
